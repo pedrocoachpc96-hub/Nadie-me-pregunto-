@@ -1,26 +1,100 @@
 {
   "updated": "2026-11-21T07:42:00Z",
   "markets": [
-    { "name": "S&P 500", "value": "6.910,39", "change": "-3,70%", "dir": "down" },
-    { "name": "Nasdaq", "value": "22.617,73", "change": "-5,30%", "dir": "down" },
-    { "name": "Bitcoin", "value": "$58.186", "change": "-6,01%", "dir": "down" },
-    { "name": "Fear & Greed", "value": "9 / 100", "change": "Miedo extremo", "dir": "warn" }
+    {
+      "name": "S&P 500",
+      "value": "6.910,39",
+      "change": "-3,70%",
+      "dir": "down"
+    },
+    {
+      "name": "Nasdaq",
+      "value": "22.617,73",
+      "change": "-5,30%",
+      "dir": "down"
+    },
+    {
+      "name": "Bitcoin",
+      "value": "$58.186",
+      "change": "-6,01%",
+      "dir": "down"
+    },
+    {
+      "name": "Fear & Greed",
+      "value": "9 / 100",
+      "change": "Miedo extremo",
+      "dir": "warn"
+    }
   ],
   "agenda": [
-    { "dow": "Mar", "day": "24", "title": "Confianza del consumidor", "time": "10:00 ET · 02:00 Sydney (mié)", "level": "Media" },
-    { "dow": "Mié", "day": "25", "title": "Inflación PCE + PIB Q3 (2ª est.)", "time": "8:30 ET · 00:30 Sydney (jue)", "level": "Alta" },
-    { "dow": "Mié", "day": "25", "title": "Libro Beige de la Fed", "time": "14:00 ET · 06:00 Sydney (jue)", "level": "Media" },
-    { "dow": "Jue", "day": "26", "title": "Acción de Gracias: mercado cerrado", "time": "Todo el día", "level": "Info" },
-    { "dow": "Vie", "day": "4 dic", "title": "Nóminas de noviembre (empleo)", "time": "8:30 ET · 00:30 Sydney (sáb)", "level": "Alta" },
-    { "dow": "Mié", "day": "9 dic", "title": "Decisión de tasas de la Fed (FOMC)", "time": "14:00 ET · 06:00 Sydney (jue)", "level": "Alta" }
+    {
+      "dow": "Mar",
+      "day": "24",
+      "title": "Confianza del consumidor",
+      "time": "10:00 ET · 02:00 Sydney (mié)",
+      "level": "Media"
+    },
+    {
+      "dow": "Mié",
+      "day": "25",
+      "title": "Inflación PCE + PIB Q3 (2ª est.)",
+      "time": "8:30 ET · 00:30 Sydney (jue)",
+      "level": "Alta"
+    },
+    {
+      "dow": "Mié",
+      "day": "25",
+      "title": "Libro Beige de la Fed",
+      "time": "14:00 ET · 06:00 Sydney (jue)",
+      "level": "Media"
+    },
+    {
+      "dow": "Jue",
+      "day": "26",
+      "title": "Acción de Gracias: mercado cerrado",
+      "time": "Todo el día",
+      "level": "Info"
+    },
+    {
+      "dow": "Vie",
+      "day": "4 dic",
+      "title": "Nóminas de noviembre (empleo)",
+      "time": "8:30 ET · 00:30 Sydney (sáb)",
+      "level": "Alta"
+    },
+    {
+      "dow": "Mié",
+      "day": "9 dic",
+      "title": "Decisión de tasas de la Fed (FOMC)",
+      "time": "14:00 ET · 06:00 Sydney (jue)",
+      "level": "Alta"
+    }
   ],
   "lessons": [
-    { "n": 1, "title": "Cómo funciona invertir" },
-    { "n": 2, "title": "Interés compuesto" },
-    { "n": 3, "title": "ETFs en simple" },
-    { "n": 4, "title": "Cripto 101" },
-    { "n": 5, "title": "Análisis técnico básico" },
-    { "n": 6, "title": "Gestión de riesgo" }
+    {
+      "n": 1,
+      "title": "Cómo funciona invertir"
+    },
+    {
+      "n": 2,
+      "title": "Interés compuesto"
+    },
+    {
+      "n": 3,
+      "title": "ETFs en simple"
+    },
+    {
+      "n": 4,
+      "title": "Cripto 101"
+    },
+    {
+      "n": 5,
+      "title": "Análisis técnico básico"
+    },
+    {
+      "n": 6,
+      "title": "Gestión de riesgo"
+    }
   ],
   "reports": [
     {
@@ -30,24 +104,62 @@
       "dateLabel": "Vie 20 nov",
       "title": "La peor semana en 18 meses: la SEC investiga a Nvidia y el trade de la IA se rompe",
       "summary": "S&P 500 en corrección, Nasdaq negativo en el año y Bitcoin bajo $60K con miedo extremo.",
-      "hero": { "value": "-14%", "label": "NVDA en un día", "dir": "down" },
+      "hero": {
+        "value": "-14%",
+        "label": "NVDA en un día",
+        "dir": "down"
+      },
       "readMinutes": 6,
       "related": "Bitcoin perfora $60K: $1.570M en liquidaciones y Fear & Greed en 9",
       "sections": [
-        { "h": "Resumen del día", "md": "Wall Street sufrió su **peor semana en 18 meses**: el Nasdaq entró en terreno negativo para 2026 y Bitcoin se desplomó bajo los $60.000, impulsado por una investigación de la SEC a Nvidia y el colapso del trade de la IA." },
-        { "h": "Cierre de índices", "md": "| Índice | Cierre | Cambio | Nota |\n|---|---|---|---|\n| S&P 500 | 6.910,39 | -3,70% | En corrección |\n| Nasdaq | 22.617,73 | -5,30% | Negativo en el año (-2,7%) |\n| Dow Jones | 48.147,33 | -1,90% | Bajo los 50.000 pts |\n| VIX | ~35,89 | +21,45% | Pánico elevado |\n| Bono 10 años | ~4,94% | -10 pb | Vuelo a refugio |\n| Oro | ~$3.470 | ~-4% | Mínimo de 12 meses |\n\nEl S&P 500 tuvo su peor semana desde abril de 2025 (-8,6% semanal)." },
-        { "h": "Acciones más seguidas", "md": "| Empresa | Cierre | Cambio |\n|---|---|---|\n| Nvidia (NVDA) | $125,53 | -14,01% |\n| AMD | ~$433,55 | ~-11% |\n| Tesla (TSLA) | $345,82 | -7,6% |\n| Meta (META) | $560,84 | -5,9% |\n| Palantir (PLTR) | ~$146,00 | ~-5% |\n| Amazon (AMZN) | $246,82 | -4,1% |\n| JPMorgan (JPM) | $310,53 | -3,03% |\n| Microsoft (MSFT) | $484,52 | -2,8% |\n| Alphabet (GOOGL) | $265,29 | -2,70% |\n| Apple (AAPL) | $342,56 | -1,9% |\n\nSolo ~38 de 503 acciones del S&P 500 cerraron en positivo: **el 92% cayó**. La gran excepción fue Palo Alto Networks (+6,4%) por buenos resultados." },
-        { "h": "Criptomonedas", "md": "| Cripto | Precio | Cambio 24h |\n|---|---|---|\n| Bitcoin | ~$58.186 | -6,01% |\n| Ethereum | ~$1.597 | -9,03% |\n| Solana | ~$71,76 | ~-8% (semana) |\n| XRP | ~$0,963 | cerca de mínimos de 2 años |\n\n- Fear & Greed: **9 a 11 sobre 100, miedo extremo**\n- ETF de Bitcoin: salida neta de ~$582M el 19/11\n- Liquidaciones en 24h: ~$1.570M\n- Dominancia de BTC: más de 60%" },
-        { "h": "¿Por qué se movió el mercado?", "md": "**Nvidia y la SEC.** La SEC investiga las prácticas contables de Nvidia. La empresa perdió casi $495.000 millones de capitalización en un día y arrastró a toda la cadena de IA.\n\n**El trade de la IA se rompe.** Desde el máximo del 6 de octubre, el S&P 500 cae más de 10%, pero las acciones de IA caen entre 20% y 40%.\n\n**Broadcom y Google.** Según Bloomberg, Google recorta sus planes de chips de IA con Broadcom porque desarrolla chips propios.\n\n**Cripto sigue a Wall Street.** Bitcoin perforó los $60K y activó liquidaciones en cadena.\n\n**Oro: venta forzada.** Cayó ~4% porque inversores con pérdidas vendieron activos líquidos para cubrir márgenes." },
-        { "h": "Curiosidad del día", "md": "Nvidia borró ~$495.000 millones de capitalización en una sola sesión: más que el PIB anual de Noruega, Suecia o Nigeria." }
+        {
+          "h": "Resumen del día",
+          "md": "Wall Street sufrió su **peor semana en 18 meses**: el Nasdaq entró en terreno negativo para 2026 y Bitcoin se desplomó bajo los $60.000, impulsado por una investigación de la SEC a Nvidia y el colapso del trade de la IA."
+        },
+        {
+          "h": "Cierre de índices",
+          "md": "| Índice | Cierre | Cambio | Nota |\n|---|---|---|---|\n| S&P 500 | 6.910,39 | -3,70% | En corrección |\n| Nasdaq | 22.617,73 | -5,30% | Negativo en el año (-2,7%) |\n| Dow Jones | 48.147,33 | -1,90% | Bajo los 50.000 pts |\n| VIX | ~35,89 | +21,45% | Pánico elevado |\n| Bono 10 años | ~4,94% | -10 pb | Vuelo a refugio |\n| Oro | ~$3.470 | ~-4% | Mínimo de 12 meses |\n\nEl S&P 500 tuvo su peor semana desde abril de 2025 (-8,6% semanal)."
+        },
+        {
+          "h": "Acciones más seguidas",
+          "md": "| Empresa | Cierre | Cambio |\n|---|---|---|\n| Nvidia (NVDA) | $125,53 | -14,01% |\n| AMD | ~$433,55 | ~-11% |\n| Tesla (TSLA) | $345,82 | -7,6% |\n| Meta (META) | $560,84 | -5,9% |\n| Palantir (PLTR) | ~$146,00 | ~-5% |\n| Amazon (AMZN) | $246,82 | -4,1% |\n| JPMorgan (JPM) | $310,53 | -3,03% |\n| Microsoft (MSFT) | $484,52 | -2,8% |\n| Alphabet (GOOGL) | $265,29 | -2,70% |\n| Apple (AAPL) | $342,56 | -1,9% |\n\nSolo ~38 de 503 acciones del S&P 500 cerraron en positivo: **el 92% cayó**. La gran excepción fue Palo Alto Networks (+6,4%) por buenos resultados."
+        },
+        {
+          "h": "Criptomonedas",
+          "md": "| Cripto | Precio | Cambio 24h |\n|---|---|---|\n| Bitcoin | ~$58.186 | -6,01% |\n| Ethereum | ~$1.597 | -9,03% |\n| Solana | ~$71,76 | ~-8% (semana) |\n| XRP | ~$0,963 | cerca de mínimos de 2 años |\n\n- Fear & Greed: **9 a 11 sobre 100, miedo extremo**\n- ETF de Bitcoin: salida neta de ~$582M el 19/11\n- Liquidaciones en 24h: ~$1.570M\n- Dominancia de BTC: más de 60%"
+        },
+        {
+          "h": "¿Por qué se movió el mercado?",
+          "md": "**Nvidia y la SEC.** La SEC investiga las prácticas contables de Nvidia. La empresa perdió casi $495.000 millones de capitalización en un día y arrastró a toda la cadena de IA.\n\n**El trade de la IA se rompe.** Desde el máximo del 6 de octubre, el S&P 500 cae más de 10%, pero las acciones de IA caen entre 20% y 40%.\n\n**Broadcom y Google.** Según Bloomberg, Google recorta sus planes de chips de IA con Broadcom porque desarrolla chips propios.\n\n**Cripto sigue a Wall Street.** Bitcoin perforó los $60K y activó liquidaciones en cadena.\n\n**Oro: venta forzada.** Cayó ~4% porque inversores con pérdidas vendieron activos líquidos para cubrir márgenes."
+        },
+        {
+          "h": "Curiosidad del día",
+          "md": "Nvidia borró ~$495.000 millones de capitalización en una sola sesión: más que el PIB anual de Noruega, Suecia o Nigeria."
+        }
       ],
       "sources": [
-        { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html" },
-        { "name": "Motley Fool", "url": "https://www.fool.com/investing/2026/11/20/nvidia-stock-plunge-wipes-out-nearly-usd500-billion-in-one-day-as-sec-reportedly-probes-its-accounting/" },
-        { "name": "Decrypt", "url": "https://decrypt.co/383702/bitcoin-breaks-below-60k-crypto-fear-greed-index-lowest" },
-        { "name": "Trefis", "url": "https://www.trefis.com/stock/spy/articles/627123/sp-500-movers-winners-panw-okta-p-losers-wsm-twlo-amd/2026-11-20" },
-        { "name": "Rio Times", "url": "https://www.riotimesonline.com/gold-silver-precious-metals-friday-november-20-2026/" }
-      ]
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+        },
+        {
+          "name": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/20/nvidia-stock-plunge-wipes-out-nearly-usd500-billion-in-one-day-as-sec-reportedly-probes-its-accounting/"
+        },
+        {
+          "name": "Decrypt",
+          "url": "https://decrypt.co/383702/bitcoin-breaks-below-60k-crypto-fear-greed-index-lowest"
+        },
+        {
+          "name": "Trefis",
+          "url": "https://www.trefis.com/stock/spy/articles/627123/sp-500-movers-winners-panw-okta-p-losers-wsm-twlo-amd/2026-11-20"
+        },
+        {
+          "name": "Rio Times",
+          "url": "https://www.riotimesonline.com/gold-silver-precious-metals-friday-november-20-2026/"
+        }
+      ],
+      "emailId": "1a1fd0e8e2a53f71"
     },
     {
       "id": "2026-11-21-pre",
@@ -56,21 +168,50 @@
       "dateLabel": "Para el lun 23 nov",
       "title": "El IPO más grande de la historia no salvó al mercado. Qué vigilar el lunes",
       "summary": "Anthropic recaudó $81.340 millones, pero detonó ventas en IA. Preparación para la apertura del lunes 23.",
-      "hero": { "value": "9:30", "label": "Apertura NY", "dir": "neutral" },
+      "hero": {
+        "value": "9:30",
+        "label": "Apertura NY",
+        "dir": "neutral"
+      },
       "readMinutes": 4,
       "related": "PCE del miércoles: el dato que más mira la Fed antes de diciembre",
       "sections": [
-        { "h": "Titular", "md": "El IPO más grande de la historia, **Anthropic con $81.340 millones**, no fue el catalizador que esperaba el mercado. Detonó una avalancha de ventas en acciones de IA: el Nasdaq cayó 5,3% en el peor día de 2026, el S&P 500 y el Dow entraron en corrección y Bitcoin cayó bajo $60.000." },
-        { "h": "Termómetro del mercado", "md": "- VIX: ~31-32, con pico de 40 durante el día\n- Bono de EE. UU. a 10 años: ~4,94%\n- Dólar (DXY): ~103,6\n- Petróleo WTI: ~$83\n- Oro: mínimo de 14 meses\n- Fear & Greed cripto: miedo extremo" },
-        { "h": "Qué vigilar el lunes 23", "md": "1. **¿Rebote técnico o más caída?** Con el VIX por encima de 30, la apertura viene volátil.\n2. **Anthropic:** si aguanta su precio de salida a bolsa, será el termómetro del sentimiento en IA.\n3. **Bitcoin:** ¿soporte en $55-58K o acelera hacia $50K?\n4. **Flujos de los ETF de Bitcoin:** entradas netas serían señal de suelo.\n5. **La Fed:** cualquier comentario sobre inflación o tasas puede amplificar el movimiento." },
-        { "h": "Agenda de la semana", "md": "| Fecha | Evento | Hora Sydney |\n|---|---|---|\n| Mié 25 | PCE de octubre + PIB Q3 | 00:30 jue |\n| Jue 26 | Acción de Gracias: cerrado | — |\n| Vie 27 | Media sesión | cierra 05:00 sáb |\n| Vie 4 dic | Nóminas de noviembre | 00:30 sáb |\n| Mié 9 dic | Decisión de la Fed | 06:00 jue |" }
+        {
+          "h": "Titular",
+          "md": "El IPO más grande de la historia, **Anthropic con $81.340 millones**, no fue el catalizador que esperaba el mercado. Detonó una avalancha de ventas en acciones de IA: el Nasdaq cayó 5,3% en el peor día de 2026, el S&P 500 y el Dow entraron en corrección y Bitcoin cayó bajo $60.000."
+        },
+        {
+          "h": "Termómetro del mercado",
+          "md": "- VIX: ~31-32, con pico de 40 durante el día\n- Bono de EE. UU. a 10 años: ~4,94%\n- Dólar (DXY): ~103,6\n- Petróleo WTI: ~$83\n- Oro: mínimo de 14 meses\n- Fear & Greed cripto: miedo extremo"
+        },
+        {
+          "h": "Qué vigilar el lunes 23",
+          "md": "1. **¿Rebote técnico o más caída?** Con el VIX por encima de 30, la apertura viene volátil.\n2. **Anthropic:** si aguanta su precio de salida a bolsa, será el termómetro del sentimiento en IA.\n3. **Bitcoin:** ¿soporte en $55-58K o acelera hacia $50K?\n4. **Flujos de los ETF de Bitcoin:** entradas netas serían señal de suelo.\n5. **La Fed:** cualquier comentario sobre inflación o tasas puede amplificar el movimiento."
+        },
+        {
+          "h": "Agenda de la semana",
+          "md": "| Fecha | Evento | Hora Sydney |\n|---|---|---|\n| Mié 25 | PCE de octubre + PIB Q3 | 00:30 jue |\n| Jue 26 | Acción de Gracias: cerrado | — |\n| Vie 27 | Media sesión | cierra 05:00 sáb |\n| Vie 4 dic | Nóminas de noviembre | 00:30 sáb |\n| Mié 9 dic | Decisión de la Fed | 06:00 jue |"
+        }
       ],
       "sources": [
-        { "name": "Axios", "url": "https://www.axios.com/2026/11/20/anthropic-ipo-nvidia-ai-tech-selloff" },
-        { "name": "Fortune", "url": "https://fortune.com/2026/11/20/ai-stocks-selloff-anthropic-record-ipo-wall-street-split-top/" },
-        { "name": "Kitco", "url": "https://kitco.com/news/article/2026-11-20/gold-falls-toward-3500-silver-slides-stock-markets-enter-correction" },
-        { "name": "Crypto Times", "url": "https://www.cryptotimes.io/2026/11/21/crypto-market-falls-5-to-2-12t-as-traders-face-1-53b-in-liquidations/" }
-      ]
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/11/20/anthropic-ipo-nvidia-ai-tech-selloff"
+        },
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/11/20/ai-stocks-selloff-anthropic-record-ipo-wall-street-split-top/"
+        },
+        {
+          "name": "Kitco",
+          "url": "https://kitco.com/news/article/2026-11-20/gold-falls-toward-3500-silver-slides-stock-markets-enter-correction"
+        },
+        {
+          "name": "Crypto Times",
+          "url": "https://www.cryptotimes.io/2026/11/21/crypto-market-falls-5-to-2-12t-as-traders-face-1-53b-in-liquidations/"
+        }
+      ],
+      "emailId": "1a1fcf38f77760f4"
     }
   ]
 }
