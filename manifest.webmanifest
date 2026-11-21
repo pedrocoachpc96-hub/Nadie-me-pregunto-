@@ -1,0 +1,14 @@
+{
+  "name": "Nadie Me Preguntó",
+  "short_name": "NMP",
+  "description": "Reportes de pre-mercado y post-mercado, noticias y educación financiera. Informar, no decidir.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#030805",
+  "theme_color": "#030805",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
